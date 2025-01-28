@@ -39,7 +39,7 @@ const UpdateUser = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch(`http://localhost:8080/api/update/${id}`, {
+            const response = await fetch(`http://localhost:8081/api/update/${id}`, {
                 method: 'PATCH',
                 headers: {
                     "Content-Type": "application/json"
